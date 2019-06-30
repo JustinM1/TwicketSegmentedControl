@@ -12,6 +12,7 @@ public protocol TwicketSegmentedControlDelegate: class {
     func didSelect(_ segmentIndex: Int)
 }
 
+@available(iOS 8.2, *)
 open class TwicketSegmentedControl: UIControl {
     public static let height: CGFloat = Constants.height + Constants.topBottomMargin * 2
 

@@ -4,10 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "TwicketSegmentedControl",
-    platforms: [
-        .iOS(.v9)
-    ],
+    name: "TwicketSegmentedControl", 
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
